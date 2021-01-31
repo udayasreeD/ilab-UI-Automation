@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ilab UI Automation Suite">
+    <listeners>
+        <listener class-name="com.ilab.uiautomation.listeners.ExtentReporterNG"></listener>
+    </listeners>
+    <test name="Ilab Quality Assessment">
+        <classes>
+            <class name="com.ilab.uiautomation.base.TestBase"/>
+            <class name="com.ilab.uiautomation.testcases.HomepageTest"/>
+            <class name="com.ilab.uiautomation.testcases.CareersTest"/>
+            <class name="com.ilab.uiautomation.testcases.CurrentOpeningTest"/>
+            <class name="com.ilab.uiautomation.testcases.FirstJobPostingTest"/>
+        </classes>
+    </test>
+</suite>
