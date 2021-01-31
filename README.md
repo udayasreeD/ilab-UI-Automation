@@ -1,2 +1,3 @@
 # ilabUIAutomation
-if you want run in different browser please just Change the browser name in config.properties file
+this script run in two browser (Firefox and Chrome)
+if you want run in chrome browser please just Change the browser name in config.properties file
